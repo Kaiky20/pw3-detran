@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 import lombok.Getter;
 import lombok.Setter;
-@Table
+@Table(name = "Pessoa")
 @Entity
 @Getter
 @Setter
